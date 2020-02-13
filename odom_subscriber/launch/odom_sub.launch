@@ -1,0 +1,8 @@
+<launch>
+    <!-- odom_subscriber launch file -->
+    <node pkg="odom_subscriber"
+        type="odom_sub"
+        name="subscribe_to_pose"
+        output="screen">
+    </node>
+</launch>

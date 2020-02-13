@@ -1,0 +1,8 @@
+<launch>
+    <!-- velocity_publisher launch file -->
+    <node pkg="velocity_publisher"
+        type="vel_pub"
+        name="publish_velocity"
+        output="screen">
+    </node>
+</launch>

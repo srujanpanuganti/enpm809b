@@ -1,0 +1,8 @@
+<launch>
+
+	<include file="$(find velocity_publisher)/launch/vel_pub.launch" />
+	<include file="$(find odom_subscriber)/launch/odom_sub.launch" />
+
+</launch>
+
+
